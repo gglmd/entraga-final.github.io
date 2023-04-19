@@ -1,0 +1,140 @@
+@import "index";
+@import "galeria";
+@import "disponibles";
+@import "cuidados";
+@import "contacto";
+/*  */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body ,html {
+    background-color: #241740;
+    color: #C8C3D2;
+    font-family: Poppins, sans-serif;
+}
+
+
+/* HEADER */
+
+.header {
+    width: 100%;
+
+    .titulo {
+        font-family: Dancing Script, cursive;
+        font-size: 40px;
+        color: #C8C3D2;
+        text-decoration: none;
+        
+    }
+
+    .titulo:hover {
+        color: #FFFFFF;
+    }
+
+    .navbar_bg {
+        background: linear-gradient(60deg, #241740, #362360);
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+
+    }
+
+    .logo_img {
+        border-radius: 50%;
+        border-color: #e9f3fb;
+        border-style: double;
+        border-width: 5px;
+        height: 70px;
+        margin: 10px 15px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.section1 {
+    background-color: #241740;
+    margin-top: 100px;
+
+    .text_section {
+        padding: 30px 0px;
+        text-align: center;
+        color: #C8C3D2;
+    }
+}
+
+
+/* FOOTER */
+
+.footer {
+    color: #C8C3D2;
+    font-family: 'Poppins', sans-serif;
+    height: 137px;
+    width: 100%;
+    background-color: #241740;
+    background: linear-gradient(180deg, #362360, #241740);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 30px;
+
+    .home_and_copy {
+        display: block;
+        text-align: center;
+    }
+
+    div a img {
+        width: 30px;
+    }
+
+    ul {
+        margin-bottom: 0;
+
+        p {
+            margin-bottom: 0;
+        }
+
+        li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: #C8C3D2;
+            }
+
+            a:hover {
+                color: #FFFFFF;
+            }
+
+            .redes {
+                width: 30px;
+                padding-right: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .navbar_bg {
+        padding:0px 80px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .navbar_bg {
+        padding:0px 60px;
+    }
+}
+@media screen and (max-width:450px) {
+    .navbar_bg {
+        padding:0px 20px;
+    }
+}

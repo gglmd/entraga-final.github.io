@@ -1,0 +1,28 @@
+/* CUIDADOS */
+
+.section_cuidados {
+    
+    text-align: center;
+    padding-bottom: 50px;
+  
+        ol li, ul li {
+            color: #C8C3D2;
+            list-style: none;
+        }
+        .img_aquaphor {
+            width: 500px;
+            border-radius: 5px;
+            border: #C8C3D2 solid 2px;
+            box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.4);
+            margin-bottom: 30px;
+        }
+    }
+
+@media screen and (max-width:670px) {
+    .img_aquaphor {
+        max-width: 80%;
+        width: 100%;
+        height: auto;
+        
+}
+}
